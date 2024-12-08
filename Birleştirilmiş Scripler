@@ -1,0 +1,76 @@
+using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.XR.ARFoundation;
+
+public class GameController : MonoBehaviour
+{
+    [Header("UI Elements")]
+    public Text startMessageText; // Başlangıç mesajı için
+    public Text gameStatusText;   // Oyundaki durum mesajları için
+    public ARSessionOrigin arOrigin; // AR ortamı için
+    public GameObject bubblePrefab;  // Baloncuk prefabı
+    public Transform faceTransform;  // Yüz algılama için
+
+    private string startMessage = "Görev: Bordoya dönüşen kabarcıkları patlat ve hastalığı yen!";
+    private int successfulHits = 0;
+    private int targetHits = Random.Range(14, 20); // Rastgele başarı hedefi
+
+    void Start()
+    {
+        // Başlangıç mesajını göster
+        if (startMessageText != null)
+        {
+            startMessageText.text = startMessage;
+            StartCoroutine(HideStartMessage(3f));
+        }
+
+        // Oyun durumunu sıfırla
+        ResetGameStatus();
+    }
+
+    void Update()
+    {
+        // Yüz algılandığında baloncuk oluştur
+        if (faceTransform != null)
+        {
+            SpawnBubble(faceTransform.position);
+        }
+    }
+
+    private IEnumerator HideStartMessage(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        startMessageText.text = ""; // Mesajı gizle
+    }
+
+    private void ResetGameStatus()
+    {
+        successfulHits = 0;
+        gameStatusText.text = "Hadi başlayalım!";
+    }
+
+    private void SpawnBubble(Vector3 position)
+    {
+        GameObject bubble = Instantiate(bubblePrefab, position, Quaternion.identity);
+        bubble.GetComponent<Bubble>().SetupBubble(OnBubblePopped);
+    }
+
+    private void OnBubblePopped(bool isDiseaseSpread)
+    {
+        if (isDiseaseSpread)
+        {
+            gameStatusText.text = "Hastalığı Yaydınız!";
+        }
+        else
+        {
+            successfulHits++;
+            gameStatusText.text = $"Başarılı vuruş: {successfulHits}/{targetHits}";
+
+            if (successfulHits >= targetHits)
+            {
+                gameStatusText.text = "Tebrikler! Hastalığı Atlattınız!";
+            }
+        }
+    }
+}
