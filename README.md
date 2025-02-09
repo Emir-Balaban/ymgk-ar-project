@@ -1,4 +1,5 @@
 1. Overylapp uygulamasını indirin:
+
    Google Play: https://play.google.com/store/apps/details?id=com.Overly.Cloud
    
    App Store: https://apps.apple.com/us/app/overly/id917343353
