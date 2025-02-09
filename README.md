@@ -8,4 +8,6 @@
 
 
 3. Aşağıdaki resmi taratın:
-![kimde-kabarcik-var-matematik-her-yerde](https://github.com/user-attachments/assets/bb335526-6aec-45ba-bcde-d2502b880c23)
+
+
+![kimde-kabarcik-var-matematik-her-yerde(1)](https://github.com/user-attachments/assets/1e24dc66-5159-46b2-b3dc-618ab0282b13)
