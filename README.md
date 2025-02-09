@@ -9,7 +9,7 @@ Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
    QR Kod: ![image](https://github.com/user-attachments/assets/7c94a8a8-f596-4066-9a60-91d087ec811d)
 
 
-3. Aşağıdaki resmi taratın: (Not: Telefon ekranı çok parlak ise resmi açtığınız cihazın parlaklığını kısın! Eğer uygulama okumuyorsa resme tıklayın ve sadece resmi çektiğinizden emin olun.)
+3. Aşağıdaki resmi taratın: (Not: Telefon ekranı çok parlak ise resmi açtığınız cihazın parlaklığını kısın! Eğer uygulama okumuyorsa resme tıklayın veya sadece resmi çektiğinizden emin olun.)
 
 
 
