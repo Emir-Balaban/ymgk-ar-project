@@ -20,5 +20,9 @@ Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
 ![kimde-kabarcik-var-matematik-her-yerde(2)](https://github.com/user-attachments/assets/e2c9866e-84bc-43f2-a317-6afffb377351)
 
 
+<img width="1381" height="813" alt="Ekran görüntüsü 2025-07-12 211502" src="https://github.com/user-attachments/assets/108e6791-898b-40e7-bb51-eab7086c5c48" />
+
+
+
 
 
