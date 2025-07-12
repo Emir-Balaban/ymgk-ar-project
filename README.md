@@ -2,7 +2,7 @@ Bu AR Projesi Tübitak'ın Kimde Kabarcık var adlı kitabında da anlatılan su
 (NOT: Proje gözden geçirildi ve bazı ufak değişiklikler yapıldı.)
 
 
-Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
+Bu artırılmış gerçeklik Overlyapp üzerinden oluşturulmuştur.
 
 1. Overylapp uygulamasını indirin:
 
