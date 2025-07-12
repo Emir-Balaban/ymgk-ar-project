@@ -1,3 +1,6 @@
+Bu AR Projesi Tübitak'ın Kimde Kabarcık var adlı kitabında da anlatılan suçiçeği hakkında bilgilendirici bir kart ve bu karta tıklandığında bilgilendirici bir videoya yönlendirmekte. 
+
+
 Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
 
 1. Overylapp uygulamasını indirin:
@@ -14,3 +17,7 @@ Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
 
 
 ![kimde-kabarcik-var-matematik-her-yerde(2)](https://github.com/user-attachments/assets/e2c9866e-84bc-43f2-a317-6afffb377351)
+
+
+
+
