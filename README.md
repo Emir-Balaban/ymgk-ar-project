@@ -1,4 +1,5 @@
 Bu AR Projesi Tübitak'ın Kimde Kabarcık var adlı kitabında da anlatılan suçiçeği hakkında bilgilendirici bir kart ve bu karta tıklandığında bilgilendirici bir videoya yönlendirmekte. 
+(NOT: Proje gözden geçirildi ve bazı ufak değişiklikler yapıldı.)
 
 
 Bu artırılmış gerçeklik Overlyapp sitesi üzerinden oluşturulmuştur.
